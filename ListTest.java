@@ -19,7 +19,7 @@ public class ListTest {
         Student st1test = (Student) Students.get(0);/*get函数返回相关元素，通过强制转换成正常的st1*/
         System.out.println("学生学号:\t" + st1test.ID + "学生姓名:\t" + st1test.name);
         Student st2 = new Student("雷欧", "2");
-        Students.add(1, st2);/*将st2加入到表中0位置*/
+        Students.add(1, st2);/*将st2加入到表中1位置*/
         Student st2test = (Student) Students.get(1);
         System.out.println("学生学号:\t" + st2test.ID + "学生姓名:\t" + st2test.name);
         Student[] student = {new Student("迪迦", "3"), new Student("爱迪", "4")};
